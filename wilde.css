@@ -1,31 +1,64 @@
 .speech {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    color: black;
+    color:chartreuse;
 }
 .name {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 13px;
-    color: coral;
+    color:blue;
 }
 .stage_direction {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     color:cornflowerblue;
 }
-.MRS. CHEVELEY
-{
-    color: cyan;
+.MRS_CHEVELEY {
+    color:darkgoldenrod;
 }
-.LADY CHILTERN {
+.LADY_CHILTERN {
     color: darkblue;
 }
-.ROBERT CHILTERN {
+.ROBERT_CHILTERN {
     color: darkcyan;
 }
-.LADY MARKBY {
+.LADY_MARKBY {
     color: darkgray;
 }
-.VICOMTE DE NANJAC {
+.VICOMTE_DE_NANJAC {
     color: darkkhaki;
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #d63333;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #3fd12c;
+  }
+h5:hover {
+    background-color: rgb(243, 240, 41);
+    border-style: dotted;
+    text-shadow:darksalmon 3px 3px ;
+}
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;padding: 0;
+}
+ul.navbar-horizontal li {
+    float:left; 
+    color:rgb(238, 64, 64);
+    background-color:rgb(103, 32, 216);
+}
+ul.navbar-horizontal a {
+    display:block;padding:8px 
+    ul.navbar-horizontal a:hover {
+          background-color: #555; color:white;
+        }
